@@ -27,6 +27,12 @@ class App extends Component {
     });
   }
 
+  handleClick = (event) => {
+    this.state({
+      selectedGifID: event.target.data
+    });
+  }
+
   render() {
     return (
       <div>
