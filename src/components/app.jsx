@@ -43,6 +43,7 @@ class App extends Component {
             <Gif
               id={this.state.selectedGifId} />
           </div>
+          <p className="copyright">Powered by GIPHY</p>
         </div>
         <div className="right-scene">
           <GifList
